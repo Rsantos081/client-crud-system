@@ -25,7 +25,7 @@ clientes_cadastrados/ → pasta onde os dados são armazenados
 
 ## Como Executar o Projeto
 1 - Clone o Repositório
-git clone https://github.com/Rsantos081
+git clone https://github.com/Rsantos081/client-crud-system
 
 2 - Entre na Pasta Projeto
 cd client_management_system
