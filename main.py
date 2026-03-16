@@ -30,9 +30,9 @@ while True:
         caminho_pasta = os.path.join("cliente_cadastrados",nome)
         os.makedirs(caminho_pasta, exist_ok= True)
         
-        caminho_arquirvo = os.path.join(caminho_pasta,"Clientes.txt")
+        caminho_arquivo = os.path.join(caminho_pasta,"Clientes.txt")
         
-        with open(caminho_arquirvo,"w") as arquivo:
+        with open(caminho_arquivo,"w") as arquivo:
             arquivo.write(f"Nome: {nome}\n")
             arquivo.write(f"CPF: {cpf}\n")
             arquivo.write(f"Telefone: {telefone}\n")
