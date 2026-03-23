@@ -1,41 +1,50 @@
-# Sistema de Cadastro de Clientes
-Projeto desenvolvido em Python com o objetivo de praticar Programação Orientada a Objetos (POO) e conceitos de CRUD (Create, Read, Update, Delete).
-
-O sistema permite cadastrar, listar e remover clientes, além de salvar os dados em arquivos no computador.
+# Sistema de Cadastro de Clientes em Python
+Este é um projeto simples de CRUD (Create, Read, Update, Delete) desenvolvido em Python para gerenciamento de clientes via terminal.
+O sistema permite cadastrar, listar, atualizar e deletar clientes, além de salvar os dados em arquivos JSON organizados por pastas.
 
 ## Funcionalidades
-- Cadastrar clientes
+- Cadastrar cliente
 - Listar clientes cadastrados
-- Deletar clientes pelo CPF
-- Validação básica de CPF
-- Armazenamento dos dados em arquivos
-- Uso de classe para representar clientes
+- Atualizar dados de um cliente
+- Deletar cliente
+- Armazenamento em arquivos .json
+- Organização automática em pastas por cliente
 
 ## Tecnologias utilizadas
-- Python
-- Programação Orientada a Objetos (POO)
-- Manipulação de arquivos
-- Estrutura de menus no terminal
+- Python 3
+- Biblioteca os (manipulação de diretórios)
+- Biblioteca json (armazenamento de dados)
 
-## Estrutura do projeto
-cadastro_clientes/
-main.py → arquivo principal do sistema
-cliente.py → classe Cliente
-clientes_cadastrados/ → pasta onde os dados são armazenados
+## Estrutura do Projeto
+projeto 
+┣  clientes_cadastrados 
+┃ ┗ Nome_do_Cliente ┃     
+┃  ┗ cliente.json 
+┗  main.py
 
+<<<<<<< HEAD
 ## Como Executar o Projeto
 1 - Clone o Repositório
 git clone https://github.com/Rsantos081/client-crud-system
+=======
+## Como funciona
+O sistema exibe um menu interativo no terminal:
+1 - Cadastrar Cliente
+2 - Listar Cliente
+3 - Deletar Cliente
+4 - Atualizar Cliente
+5 - Sair
+>>>>>>> 8d3e6b4 (refactor: melhoria no codigo)
 
-2 - Entre na Pasta Projeto
-cd client_management_system
+Cada opção executa uma função específica:
+- Cadastrar: adiciona cliente e salva em JSON
+- Listar: mostra todos os clientes em memória
+- Deletar: remove cliente pelo CPF
+- Atualizar: altera dados do cliente
 
-3 - Execute o Sistema 
-python main.py
-
-## Objetivo do Projeto
-Este projeto foi criado para praticar conceitos fundamentais de programação em Python, incluindo:
-- Estrutura de sistemas no Terminal
-- Manipulação de listas
-- Programação Orientada a Objetos
-- Estruturas básicas de um CRUD
+## Aprendizados
+- Estruturas de dados (listas e dicionários)
+- Manipulação de arquivos JSON
+- Organização de código com funções
+- Lógica de programação
+- CRUD em Python
