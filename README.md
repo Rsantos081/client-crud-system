@@ -22,11 +22,6 @@ projeto
 ┃  ┗ cliente.json 
 ┗  main.py
 
-<<<<<<< HEAD
-## Como Executar o Projeto
-1 - Clone o Repositório
-git clone https://github.com/Rsantos081/client-crud-system
-=======
 ## Como funciona
 O sistema exibe um menu interativo no terminal:
 1 - Cadastrar Cliente
@@ -34,7 +29,6 @@ O sistema exibe um menu interativo no terminal:
 3 - Deletar Cliente
 4 - Atualizar Cliente
 5 - Sair
->>>>>>> 8d3e6b4 (refactor: melhoria no codigo)
 
 Cada opção executa uma função específica:
 - Cadastrar: adiciona cliente e salva em JSON

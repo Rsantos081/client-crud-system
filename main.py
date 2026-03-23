@@ -71,7 +71,7 @@ def Atualizar_Cliente():
             print("Cliente não Encontrado.")
             
 def limpar_tela():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system('cls' if os.name== 'nt' else 'clear')
   
 while True:
     print("\n--- Sistema de Cadastro ao Cliente ---")
@@ -85,38 +85,9 @@ while True:
     opcao = input("Escolha uma opção :")
     
     if opcao == "1":
-<<<<<<< HEAD
-        
-        nome = input("Digite seu nome para continuar o cadastro:".title()).strip()
-        cpf = input("Digite seu CPF para continuar seu cadastro :".title()).strip()
-        telefone = input("Digite seu Telefone para continuar seu cadastro:".title()).strip()
-        email = input("Digite seu Email para concluir seu cadastro:".title()).strip()
-        
-        if not cpf.isdigit() or len(cpf) != 11:
-            print("CPF Inválido! Digite um CPF válido ")
-            continue
-        
-        cliente = Cliente(nome,cpf,telefone,email)
-        clientes.append(cliente)
-        
-        caminho_pasta = os.path.join("cliente_cadastrados",nome)
-        os.makedirs(caminho_pasta, exist_ok= True)
-        
-        caminho_arquivo = os.path.join(caminho_pasta,"Clientes.txt")
-        
-        with open(caminho_arquivo,"w") as arquivo:
-            arquivo.write(f"Nome: {nome}\n")
-            arquivo.write(f"CPF: {cpf}\n")
-            arquivo.write(f"Telefone: {telefone}\n")
-            arquivo.write(f"Email: {email}\n")
-        
-        print("Cliente Cadastrado com Sucesso !!")
-        
-=======
       limpar_tela()
       cadastrar_clientes()
-      input("\n Pressione Enter Para Continuar ")
->>>>>>> 8d3e6b4 (refactor: melhoria no codigo)
+      input("\n Pressione Enter e Continue")
     elif opcao == "2":
         Listar_Clientes()
     elif opcao == "3":
@@ -126,8 +97,3 @@ while True:
     elif opcao == "5":
         print()
         break
-<<<<<<< HEAD
-    else:
-        print("Opção Invalida")
-=======
->>>>>>> 8d3e6b4 (refactor: melhoria no codigo)
