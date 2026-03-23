@@ -16,19 +16,19 @@ O sistema permite cadastrar, listar, atualizar e deletar clientes, além de salv
 - Biblioteca json (armazenamento de dados)
 
 ## Estrutura do Projeto
-projeto 
-┣  clientes_cadastrados 
-┃ ┗ Nome_do_Cliente ┃     
-┃  ┗ cliente.json 
-┗  main.py
+Projeto 
+- clientes_cadastrados 
+- Nome_do_Cliente      
+- cliente.json 
+- main.py
 
 ## Como funciona
 O sistema exibe um menu interativo no terminal:
-1 - Cadastrar Cliente
-2 - Listar Cliente
-3 - Deletar Cliente
-4 - Atualizar Cliente
-5 - Sair
+- Cadastrar Cliente
+- Listar Cliente
+- Deletar Cliente
+- Atualizar Cliente
+- Sair
 
 Cada opção executa uma função específica:
 - Cadastrar: adiciona cliente e salva em JSON
